@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    
+    <script type="text/javascript">
+
+var arr = [];
+
+arr[0]= new Image();
+arr[0].src = "ASSETS/a1.png";
+arr[1]= new Image();
+arr[1].src = "ASSETS/b1.png";
+arr[2]= new Image();
+arr[2].src = "ASSETS/a2.png";
+        arr[3]= new Image();
+arr[3].src = "ASSETS/b2.png";
+        arr[4]= new Image();
+arr[4].src = "ASSETS/a3.png";
+        arr[5]= new Image();
+arr[5].src = "ASSETS/b3.png";
+          arr[6]= new Image();
+arr[6].src = "ASSETS/a4.png";
+        arr[7]= new Image();
+arr[7].src = "ASSETS/b4.png";
+        arr[8]= new Image();
+arr[8].src = "ASSETS/a5.png";
+         arr[9]= new Image();
+arr[9].src = "ASSETS/b5.png";
+         arr[10]= new Image();
+arr[10].src = "ASSETS/a6.png";
+        arr[11]= new Image();
+arr[11].src = "ASSETS/b6.png";
+         arr[12]= new Image();
+arr[12].src = "ASSETS/a7.png";
+        arr[13]= new Image();
+arr[13].src = "ASSETS/b7.png";
+         arr[14]= new Image();
+arr[14].src = "ASSETS/a8.png";
+         arr[15]= new Image();
+arr[15].src = "ASSETS/b8.png";
+        arr[16]= new Image();
+arr[16].src = "ASSETS/a9.png";
+         arr[17]= new Image();
+arr[17].src = "ASSETS/b9.png";
+        arr[18]= new Image();
+arr[18].src = "ASSETS/a10.png";
+         arr[19]= new Image();
+arr[19].src = "ASSETS/b10.png";
+         arr[20]= new Image();
+arr[20].src = "ASSETS/a11.png";
+        arr[21]= new Image();
+arr[21].src = "ASSETS/b11.png";
+
+var i=0;
+
+function slide(){
+ document.getElementById("img").src= arr[i].src;
+ i++;
+ if(i==arr.length){
+  i=0;
+ }
+ setTimeout(function(){ slide(); }, 200 );
+}
+
+</script>
+    
+    
+    
+    
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onLoad="slide('image1',arr);">
+            <img class="spate" src="ASSETS/a.png">
+
+    <img  class="a" id="img" data-tilt  data-tilt-perspective="150" >
+
+    <a href="skills.html" class="port link">SKILLS</a>
+    <a href="contact.html" class="cont link">CONTACT</a>
+    
+    
+    <script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.4.1/vanilla-tilt.js"></script>    
+
+</body>
+</html>
