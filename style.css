@@ -107,7 +107,6 @@ transform-style: preserve-3d;
 
 
 
-<<<<<<< HEAD
 @keyframes hfu{
     0%{
         transform: rotate(360deg);
@@ -119,8 +118,7 @@ transform-style: preserve-3d;
         transform: rotate(360deg);
     }
 }
-=======
->>>>>>> 8cb190015d14a1380744071b144612d6be23395a
+
 
 
 .sklz{
@@ -162,15 +160,12 @@ position: fixed;
   top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
-<<<<<<< HEAD
     animation: lepo 5s;
     animation-fill-mode: forwards;
     animation-delay:3s;
-=======
     animation: lepo 2s;
     animation-fill-mode: forwards;
     animation-delay:1.5s;
->>>>>>> 8cb190015d14a1380744071b144612d6be23395a
 
 }
 @keyframes lepo{
@@ -242,10 +237,8 @@ position: fixed;
      display: flex;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
-=======
+
 	
->>>>>>> 8cb190015d14a1380744071b144612d6be23395a
     
 }
 
@@ -363,22 +356,37 @@ position: fixed;
   transform: translate(-50%, -50%);
 }
 
-<<<<<<< HEAD
-=======
+
 .acc{
 	width:10%;
 	
 }
 
->>>>>>> 8cb190015d14a1380744071b144612d6be23395a
 @media only screen and (max-width: 480px) {
 	.col {  margin: 1% 0 1% 0%; }
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 }
 
+@media only screen and (max-width: 1000px) {
+     .a{
+        width: 75%;
+    }
+    .spate{ 
+    width: 75%;
+    }
+    
+    
+    
+    
+}
+
 @media only screen and (max-width: 500px) {
-<<<<<<< HEAD
-=======
+   
+    .link{
+        font-size: 20px;
+    }
+    
+    
 	.acc{
 		width: 30%;
 	}
@@ -387,7 +395,6 @@ position: fixed;
 		text-align: center;
 		
 	}
->>>>>>> 8cb190015d14a1380744071b144612d6be23395a
     .spam{
         top: 65%;   
     }
