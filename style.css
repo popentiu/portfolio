@@ -160,12 +160,9 @@ position: fixed;
   top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
-    animation: lepo 5s;
-    animation-fill-mode: forwards;
-    animation-delay:3s;
+    
     animation: lepo 2s;
     animation-fill-mode: forwards;
-    animation-delay:1.5s;
 
 }
 @keyframes lepo{
